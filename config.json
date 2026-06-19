@@ -1,0 +1,46 @@
+{
+  "port": 3001,
+  "maxPlayers": 50,
+  "motd": "Economy SMP — Grind, Claim, Conquer",
+  "worldSeed": "economy-smp",
+  "pvp": true,
+  "spawnProtection": true,
+  "allowCommands": false,
+  "mods": {
+    "sharks": false,
+    "skateboard": false
+  },
+  "economy": {
+    "startingBalance": 1000,
+    "currencySymbol": "$",
+    "currencyName": "Coins",
+    "killReward": 50,
+    "deathPenalty": 25,
+    "jobsEnabled": true,
+    "jobs": ["Miner", "Farmer", "Hunter", "Builder", "Fisherman"]
+  },
+  "leaderboard": {
+    "title": "Top Players",
+    "sortBy": "balance",
+    "maxEntries": 10,
+    "titleColor": "#ffd700",
+    "titleGradient": true,
+    "gradientFrom": "#ffd700",
+    "gradientTo": "#ff8c00",
+    "entryColor": "#ffffff",
+    "backgroundColor": "rgba(0,0,0,0.7)",
+    "borderColor": "#ffd700",
+    "showKills": true,
+    "showDeaths": true
+  },
+  "landClaim": {
+    "enabled": true,
+    "maxSize": 64,
+    "maxHeight": "world",
+    "tool": "golden_shovel",
+    "costPerBlock": 1,
+    "maxClaimsPerPlayer": 5,
+    "fluidContainment": true,
+    "whitelistOnly": true
+  }
+}

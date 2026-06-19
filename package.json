@@ -1,0 +1,12 @@
+{
+  "name": "voxelcraft-economy-server",
+  "version": "1.0.0",
+  "description": "VoxelCraft Economy SMP Server — economy, leaderboard, land claims",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
