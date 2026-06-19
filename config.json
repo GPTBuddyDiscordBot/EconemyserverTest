@@ -1,5 +1,5 @@
 {
-  "port": 3001,
+  "port": 0,
   "maxPlayers": 50,
   "motd": "Economy SMP — Grind, Claim, Conquer",
   "worldSeed": "economy-smp",
@@ -12,8 +12,8 @@
   },
   "economy": {
     "startingBalance": 1000,
-    "currencySymbol": "$",
-    "currencyName": "Coins",
+    "currencySymbol": "£",
+    "currencyName": "POUNDS",
     "killReward": 50,
     "deathPenalty": 25,
     "jobsEnabled": true,
